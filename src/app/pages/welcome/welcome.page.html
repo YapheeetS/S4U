@@ -1,0 +1,34 @@
+<ion-content>
+
+  <div>
+    <!-- TODO: add a logo -->
+    <!--      <img src="assets/image/lanuch_page_logo.png" />-->
+    <ion-text style="text-align: center">
+      <h2>S4U </h2>
+    </ion-text>
+    <ion-text style="text-align: center">
+      <h3>Service for you</h3>
+    </ion-text>
+  </div>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button shape="round" expand="block" color='secondary' (click)="navigateToLoginPage()">
+          START as Customer
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="secondRow">
+
+      <ion-col>
+        <ion-button shape="round" expand="block" color='warning' (click)="navigateToLoginPage()">
+          START as Vendor
+        </ion-button>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+</ion-content>

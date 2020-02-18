@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/login"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Reset password
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="bg-signup">
+
+    <ion-item class="itemuser">
+      <ion-label class="mylabel" position="floating">Email</ion-label>
+      <ion-input class="myinput" type="text" [(ngModel)]="email"></ion-input>
+    </ion-item>
+
+  </ion-card>
+
+  <ion-button  class="register-btn" expand="block" shape="round" fill="solid" color="secondary" (click)="send_email()">Reset password</ion-button>
+
+  <!-- Add a container for reCaptcha -->
+<!--  <div id="recaptcha-container"></div>-->
+</ion-content>
+
+
+

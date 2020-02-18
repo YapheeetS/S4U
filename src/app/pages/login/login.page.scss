@@ -1,0 +1,71 @@
+.title-label {
+  margin-top: 18%;
+  padding: 0px 20px 20px 20px;
+  display: block;
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+
+  }
+}
+
+.launchlogo {
+  width: 30%;
+  margin: 0px auto;
+}
+.lanch{
+  margin-top: 18%;
+}
+.bg-login{
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+ion-item{
+  --highlight-height: 0;
+  width: 90%;
+  margin: 0px auto;
+}
+.mylabel{
+  font-size: 11pt;
+  color: #979797;
+}
+
+ion-grid{
+  ion-col{
+    text-align: center;
+    padding: 0px 40px;
+    //margin: 7px;
+    .lgrg{
+      height: 44px;
+    }
+  }
+}
+.login-row{
+  margin-top: 10px;
+}
+.register-row {
+  margin-top: 30px;
+}
+
+.auth-row{
+  margin-top: 12%;
+}
+.tplogin{
+  ion-icon{
+    margin: 0px;
+  }
+
+}
+.reset-row {
+  margin-top: 30px;
+}
+.resetpw {
+  color: #9d9fa6;
+
+}
+
+.tplogin:hover{
+  background-color: white !important;
+}

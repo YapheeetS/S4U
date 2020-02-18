@@ -1,0 +1,56 @@
+<ion-content>
+  <!-- logo -->
+  <div class="lanch">
+    <ion-img class="launchlogo" alt="fail" src="/assets/image/lanuch_page_logo.png"></ion-img>
+  </div>
+
+  <!--  <div class="title-label">-->
+  <!--    <ion-text style="text-align: center">-->
+  <!--      <h2>S4U </h2>-->
+  <!--    </ion-text>-->
+  <!--    <ion-text style="text-align: center">-->
+  <!--      <h3>Service for you</h3>-->
+  <!--    </ion-text>-->
+  <!--  </div>-->
+
+  <ion-card class="bg-login">
+    <!-- user input -->
+    <ion-item class="itemuser">
+      <ion-label class="mylabel" position="floating">E-mail</ion-label>
+      <ion-input class="myinput" type="text" [(ngModel)]="username"></ion-input>
+    </ion-item>
+    <!-- password input -->
+    <ion-item lines="none">
+      <ion-label class="mylabel" position="floating">Password</ion-label>
+      <ion-input type="Password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+  </ion-card>
+
+
+  <ion-grid>
+    <ion-row class="login-row">
+      <!-- login button -->
+      <ion-col>
+        <ion-button class="lgrg" expand="block" shape="round" fill="solid" color="secondary" (click)="login()">login</ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="register-row">
+      <!-- sign in button -->
+      <ion-col>
+        <ion-button class="lgrg" expand="block" shape="round" fill="outline" color="secondary" (click)="register()">sign up</ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="reset-row">
+      <!-- sign in button -->
+      <ion-col>
+        <ion-button color="white" class="resetpw" size="small" fill="clear" (click)="reset_password()">reset password</ion-button>
+      </ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+
+
+</ion-content>

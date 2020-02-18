@@ -1,5 +1,7 @@
 {
   "name": "S4U",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
