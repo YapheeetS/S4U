@@ -59,7 +59,7 @@ export class LoginPage implements OnInit {
       buttons: ['Ok']
     })
 
-    await alert.present()
+    await alert.present();
   }
 
   register() {
