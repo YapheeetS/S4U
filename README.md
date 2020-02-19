@@ -1,5 +1,4 @@
 # S4U
-Service for you
 
 Project Title: S4U (Service for you)
 
